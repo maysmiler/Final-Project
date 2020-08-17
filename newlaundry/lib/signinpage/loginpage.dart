@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newlaundry/widgets/google_login.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -143,12 +144,7 @@ class LoginPageState extends State<LoginPage> {
           ),
           SizedBox(height: 30),
           Center(
-            child: Container(
-              height: 50,
-              child: InkWell(
-                onTap: () => {},
-              ),
-            ),
+            child: GoogleLogin(),
           )
         ],
       ),
