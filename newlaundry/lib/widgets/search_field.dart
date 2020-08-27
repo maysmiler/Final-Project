@@ -6,9 +6,24 @@ class SearchField extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(top: 30, left: 15, right: 15),
       child: Container(
+        padding: EdgeInsets.symmetric(horizontal: 15),
         height: 50,
         width: 100,
-        color: Colors.white,
+        decoration: BoxDecoration(
+            color: Colors.white.withOpacity(0.5),
+            borderRadius: BorderRadius.circular(20)),
+        child: TextField(
+          decoration: InputDecoration(
+              enabledBorder: InputBorder.none,
+              focusedBorder: InputBorder.none,
+              icon: Icon(Icons.search, size: 30, color: Colors.white),
+              hintText: 'Search',
+              hintStyle: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'Prompt',
+                  fontSize: 18,
+                  fontWeight: FontWeight.w300)),
+        ),
       ),
     );
   }

@@ -37,7 +37,9 @@ class AccountPageState extends State<AccountPage> {
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
-          )
+          ),
+          SizedBox(height: 30),
+          
         ],
       ),
     );
