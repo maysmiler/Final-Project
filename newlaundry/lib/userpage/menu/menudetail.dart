@@ -126,56 +126,24 @@ Row shopLocation({String name}) {
   );
 }
 
-Row shopDetail({String name}) {
-  return Row(
-    children: [
-      Icon(
-        Icons.home,
-        color: Colors.grey,
-      ),
-      SizedBox(width: 10, height: 10),
-      // Flexible(
-      //   child: Text(
-      //     '104 ซอย ประชาอุทิศ 45 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร 10140',
-      //     style: TextStyle(
-      //         color: Colors.black,
-      //         fontFamily: 'Prompt',
-      //         fontSize: 16,
-      //         fontWeight: FontWeight.w300),
-      //         maxLines: 1,
-      //         overflow: TextOverflow.ellipsis,
-      //   ),
-      // ),
-      Flexible(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            new Text(
-                "Why doesn't this text wrap? There's plenty of vertical space...")
-          ],
+Expanded shopDetail({String name}) {
+  return Expanded(
+    child: Row(
+      children: [
+        Icon(Icons.home),
+        SizedBox(height: 10, width: 10),
+        Text(
+          '104 ซอย ประชาอุทิศ 45 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร 10140',
+          style: TextStyle(
+              color: Colors.black,
+              fontFamily: 'Prompt',
+              fontSize: 16,
+              fontWeight: FontWeight.w300),
         ),
-      )
-    ],
+      ],
+    ),
   );
 }
-
-// Expanded shopDetail({String name}) {
-//   return Expanded(
-//     child: Row(
-//       children: [
-//         Icon(Icons.home),
-//         Text(
-//           '104 ซอย ประชาอุทิศ 45 ถนนประชาอุทิศ แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร 10140',
-//           style: TextStyle(
-//               color: Colors.black,
-//               fontFamily: 'Prompt',
-//               fontSize: 16,
-//               fontWeight: FontWeight.w300),
-//         ),
-//       ],
-//     ),
-//   );
-// }
 
 Expanded shopName({String name}) {
   return Expanded(
