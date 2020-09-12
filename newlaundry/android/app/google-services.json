@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "520466378870",
+    "firebase_url": "https://my-project-dev-272513.firebaseio.com",
+    "project_id": "my-project-dev-272513",
+    "storage_bucket": "my-project-dev-272513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520466378870:android:cbeed8f234869b58ecef57",
+        "android_client_info": {
+          "package_name": "com.example.newlaundry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520466378870-j5r69qa6d23jile0pv3r2642hj2e0c18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtndk7vBRtPgeKr-zepU9LPQ0s5HESDpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520466378870-j5r69qa6d23jile0pv3r2642hj2e0c18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -6,7 +6,20 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
+#Firebase Library
+  google_sign_in: ^4.5.3
+  cloud_firestore: ^0.14.0+2
+  firebase_auth: ^0.18.0+1
+
+#Flutter Toast & Shared Preferences
+  shared_preferences: ^0.5.10
+  fluttertoast: ^7.0.2
+
+#Button
+  flutter_auth_buttons: ^0.9.0
+  
 dependencies:
+  cloud_firestore: ^0.14.0+2
   curved_navigation_bar: ^0.3.2
   flutter:
     sdk: flutter
